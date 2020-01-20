@@ -3,7 +3,7 @@
 -export([]).
 
 startns()->
-    register(namespace,spawn(fun()->namespace(top) end)).
+    register(ns,spawn(fun()->namespace(top) end)).
 
 namespace(State) ->
     receive
