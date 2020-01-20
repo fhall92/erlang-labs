@@ -1,3 +1,6 @@
+%Compile with c(modulename)
+%Run function with modulename:functionName()
+
 -module(nspace).
 
 -export([runAll/0, sendMsg/2]).
